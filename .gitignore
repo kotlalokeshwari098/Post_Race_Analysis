@@ -1,0 +1,89 @@
+# =========================
+# Python bytecode & cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# =========================
+# IDE / Editor settings
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment variables
+# =========================
+.env.*
+!.env.example
+
+# =========================
+# Data files (VERY IMPORTANT)
+# =========================
+data/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.json
+*.pickle
+*.pkl
+
+# =========================
+# Model artifacts (ML / DS)
+# =========================
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.joblib
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Test & coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Misc
+# =========================
+.cache/
